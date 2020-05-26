@@ -1,0 +1,78 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: sans-serif;
+}
+
+
+#nav-bar{
+	position: sticky;
+	top: 0;
+	z-index: 0;
+}
+
+.navbar{
+	background-image: linear-gradient(to right, #DC143C,#F08080);
+}
+
+.navbar-nav li{
+padding: 0 10px;
+}
+
+.navbar-nav li a{
+	color: #fff !important;
+	font-weight: 500;
+	float: right;
+	text-align: left;
+}
+
+.fa-bars{
+	color: #fff;
+	font-size: 25px !important;
+}
+
+.navbar-toggler{
+	outline: none !important;
+}
+
+
+/*--------------------------------------BANNER SECTION--------------------------------------------------*/
+
+#banner{
+	background-image: linear-gradient(to right, #DC143C,#F08080);
+	color: #fff;
+	padding-top: 2%;
+}
+
+
+.promo-title{
+	font-size: 30px;
+	font-weight: 500;
+	margin-top: 15px;
+}
+
+
+/*-------------------------------WHO AM I SECTION------------------------------------------*/
+
+
+#whoami{
+	padding: 80px 0;
+
+}
+
+.who{
+	padding: 40px;
+}
+
+
+.text{
+	text-align: center;
+}
+
+.promo-title{
+	text-align: left;
+	
+}
